@@ -29,5 +29,10 @@
   },
   "publishConfig": {
     "registry": "http://registry.npmjs.org/"
+  },
+  "dependencies": {
+    "capitalize": "^1.0.0",
+    "lodash.defaults": "^3.1.2",
+    "lodash.foreach": "^3.0.3"
   }
 }
