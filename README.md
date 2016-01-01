@@ -23,10 +23,9 @@ $ npm install --save markdown-tableify
 
 * data:Array(Object) => data of the table
 * config:Object => configuration
-  * config.tidy:Boolean => tidy the output HTML or not
   * config.headers:Array(Object) => Headers config
     * header.name:String => key in data object
-    * header.align:Enum('left'|'right'|'center') => text align of the column
+    * header.align:String => text align of the column
     * header.title:String => title of the column
 
 ```javascript
