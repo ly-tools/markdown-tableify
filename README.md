@@ -1,6 +1,6 @@
 # markdown-tableify
 
-[![Test coverage](https://img.shields.io/coveralls/LingyuCoder/markdown-tableify.svg?style=flat-square)](https://coveralls.io/r/LingyuCoder/markdown-tableify?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/LingyuCoder/markdown-tableify/badge.svg?branch=master)](https://coveralls.io/github/LingyuCoder/markdown-tableify?branch=master)
 [![Build Status](https://travis-ci.org/LingyuCoder/markdown-tableify.png)](https://travis-ci.org/LingyuCoder/markdown-tableify)
 [![Dependency Status](https://david-dm.org/LingyuCoder/markdown-tableify.svg)](https://david-dm.org/LingyuCoder/markdown-tableify)
 [![devDependency Status](https://david-dm.org/LingyuCoder/markdown-tableify/dev-status.svg)](https://david-dm.org/LingyuCoder/markdown-tableify#info=devDependencies)
