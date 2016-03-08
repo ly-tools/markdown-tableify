@@ -22,7 +22,7 @@ module.exports = (data, config) => {
   $rows.push(`| ${config.headers.map(hd => `${hd.title || capitalize(hd.name)}`).join(' | ')} |`);
   $rows.push(`| ${config.headers.map(hd => `${hd.align || ':---:'}`).join(' | ')} |`);
   $rows = $rows.concat(data.map(rowData => {
-    let $tds = config.headers.map(hd => `${rowData[hd.name] || ''}`);
+    let $tds = config.headers.map(hd => `${rowData[hd.name].replace(/[\n]/g, ' ') || ''}`);
     return `| ${$tds.join(' | ')} |`;
   }));
   return $rows.join('\n');

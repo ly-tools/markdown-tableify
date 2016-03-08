@@ -43,6 +43,19 @@ describe('markdown-tableify', () => {
 | optionalBool | Description of optionalBool. | bool |  | false |
     `.trim());
   });
+  it('Multiline', () => {
+    return tableify([{
+      name: 'multiline',
+      description: 'Description of multiline.\nDescription of multiline.\nDescription of multiline.',
+      required: '',
+      type: 'array',
+      defaultValue: '[]'
+    }]).trim().should.be.eql(`
+| Name | Description | Required | Type | DefaultValue |
+| :---: | :---: | :---: | :---: | :---: |
+| multiline | Description of multiline. Description of multiline. Description of multiline. |  | array | [] |
+    `.trim());
+  });
   it('No headers', () => {
     return tableify([{
       name: 'optionalArray',
