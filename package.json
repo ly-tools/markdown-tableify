@@ -1,6 +1,6 @@
 {
   "name": "markdown-tableify",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Convert json to markdown table",
   "main": "index.js",
   "scripts": {
